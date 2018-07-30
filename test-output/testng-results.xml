@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-07-09T16:39:35Z" name="Regression" finished-at="2018-07-09T16:39:35Z" duration-ms="652">
+  <suite started-at="2018-07-20T11:02:21Z" name="Regression" finished-at="2018-07-20T11:02:22Z" duration-ms="824">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@1e6454ec]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@101952da]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2018-07-09T16:39:35Z" name="test1" finished-at="2018-07-09T16:39:35Z" duration-ms="652">
+    <test started-at="2018-07-20T11:02:21Z" name="test2" finished-at="2018-07-20T11:02:22Z" duration-ms="820">
       <class name="testRunner.Runner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-09T16:39:35Z" name="setUpClass" finished-at="2018-07-09T16:39:35Z" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-20T11:02:21Z" name="setUpClass" finished-at="2018-07-20T11:02:22Z" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-09T16:39:35Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-09T16:39:35Z" duration-ms="85" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-20T11:02:22Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-20T11:02:22Z" duration-ms="108" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -66,74 +66,74 @@ at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.jav
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-09T16:39:35Z" name="tearDownClass" finished-at="2018-07-09T16:39:35Z" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.Runner -->
-    </test> <!-- test1 -->
-    <test started-at="2018-07-09T16:39:35Z" name="test2" finished-at="2018-07-09T16:39:35Z" duration-ms="652">
-      <class name="testRunner.Runner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-09T16:39:35Z" name="setUpClass" finished-at="2018-07-09T16:39:35Z" duration-ms="401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-09T16:39:35Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-09T16:39:35Z" duration-ms="86" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[A&F app launching]]>
-              </value>
-            </param>
-          </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:57)
-at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-... 21 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-09T16:39:35Z" name="tearDownClass" finished-at="2018-07-09T16:39:35Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@101952da]" started-at="2018-07-20T11:02:22Z" name="tearDownClass" finished-at="2018-07-20T11:02:22Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.Runner -->
     </test> <!-- test2 -->
+    <test started-at="2018-07-20T11:02:21Z" name="test1" finished-at="2018-07-20T11:02:22Z" duration-ms="824">
+      <class name="testRunner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-20T11:02:21Z" name="setUpClass" finished-at="2018-07-20T11:02:22Z" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-20T11:02:22Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-20T11:02:22Z" duration-ms="109" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A&F app launching]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void utility.Hooks.setUP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:57)
+at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@1e6454ec]" started-at="2018-07-20T11:02:22Z" name="tearDownClass" finished-at="2018-07-20T11:02:22Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- test1 -->
   </suite> <!-- Regression -->
 </testng-results>

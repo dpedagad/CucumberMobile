@@ -227,8 +227,8 @@ Caused by: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 argumen
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;test1&quot; verbose=&quot;5&quot; preserve-order=&quot;false&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;test1&quot; verbose=&quot;5&quot; preserve-order=&quot;false&quot;&gt;
     &lt;parameter name=&quot;iDevice&quot; value=&quot;iPhone 6&quot;/&gt;
     &lt;parameter name=&quot;pfv&quot; value=&quot;11.0.3&quot;/&gt;
     &lt;parameter name=&quot;wda&quot; value=&quot;8100&quot;/&gt;
@@ -238,7 +238,7 @@ Caused by: cucumber.runtime.CucumberException: Hooks must declare 0 or 1 argumen
       &lt;class name=&quot;testRunner.Runner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test1 --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;test2&quot; verbose=&quot;5&quot; preserve-order=&quot;false&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;test2&quot; verbose=&quot;5&quot; preserve-order=&quot;false&quot;&gt;
     &lt;parameter name=&quot;iDevice&quot; value=&quot;iPhone 6S&quot;/&gt;
     &lt;parameter name=&quot;pfv&quot; value=&quot;10.3&quot;/&gt;
     &lt;parameter name=&quot;wda&quot; value=&quot;8101&quot;/&gt;
@@ -300,16 +300,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'testRunner.Runner')
-data.setCell(0, 3, 86);
+data.setCell(0, 3, 109);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'feature')
 data.setCell(1, 2, 'testRunner.Runner')
-data.setCell(1, 3, 85);
+data.setCell(1, 3, 108);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 171 ms</span>
+              <span class="suite-total-time">Total running time: 217 ms</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -348,21 +348,21 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(A&F app launching)</span>
-                <span class="method-start">533 ms</span>
+                <span class="method-start">674 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(A&F app launching)</span>
-                <span class="method-start">534 ms</span>
+                <span class="method-start">674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">625 ms</span>
+                <span class="method-start">787 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">629 ms</span>
+                <span class="method-start">804 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
